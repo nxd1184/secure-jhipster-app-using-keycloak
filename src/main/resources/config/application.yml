@@ -106,11 +106,11 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
+            issuer-uri: http://localhost/auth/realms/google
         registration:
           oidc:
-            client-id: web_app
-            client-secret: web_app
+            client-id: youtube
+            client-secret: youtube
 
 server:
   servlet:
